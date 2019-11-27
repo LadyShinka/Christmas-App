@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+        <link 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" 
+        rel="stylesheet"  type='text/css'>
+
+    <style>
+        #header {
+            /* background: url("images/mick-haupt-KPOTowEvT3E-unsplash.jpg"); */
+            background: url("images/mel-poole-kk0Zxw9DS6M-unsplash.jpg") center center / cover no-repeat;
+            color: #1d572e;
+            font-weight: 700;
+        }
+        /* h1 p {
+            font-weight: 700;
+        } */
+        #gallery {
+            background: url("https://gallery.yopriceville.com/var/albums/Backgrounds/Christmas_Background_with_Snowflake_and_Christmas_Balls.jpg?m=1446243504") center center / cover no-repeat;
+            /* background-size: 90% 100%; */
+
+        }
+        /* #navbarfix {
+            background-color: white;
+        } */
+    </style>
+
+    <title>Santa's MailBox</title>
+</head>
+
+<body>
+    <nav style="background-color: #064418;" id="navbarfix" class="navbar float-left">
+        <div class="container">
+            <a href="" style="color: rgba(255, 18, 18, 0.78); text-shadow: 0.5px 1px black;" class="navbar-brand"><i class="fas fa-holly-berry"></i> Santa's Mail Page</a>
+        </div>
+    </nav>
+
+    <section id="header" class="jumbotron text-center">
+        <h1 style="font-weight: 900; text-shadow: 2px 2px black;" class="display-2">Welcome to Santa's Mail Box</h1>
+        <p style="font-size: 2rem; font-weight: 900; text-shadow: 2px 2px black;" class="lead">Have you been good this year? If YES then send Santa a Letter!</p>
+        <a href="" class="btn btn-success">Write a Letter</a>
+        <a href="" class="btn btn-danger">Send Santa some Love</a>
+    </section>
+
+    <section id="gallery">
+       <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/mockaroon-lHGNscNYVng-unsplash.jpg" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Write a New Letter</h5>
+                            <p class="card-text">If you have been good this year then.. go ahead and send Santa a Letter! Make sure the number of wishes you make matches how good you were.</p>
+                            <a href="./views/newletter.html" class="btn btn-outline-success btn-sm">Write Letter</a>
+                            <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-envelope"></i></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/osman-rana-u5m61CHska4-unsplash.jpg" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Send Santa some Love</h5>
+                            <p class="card-text">If you already sent Santa a Letter but you want to let him know how much he means to you.. then send Santa some Love and bring a smile to his face.</p>
+                            <a href="./views/sendlove.html" class="btn btn-outline-success btn-sm">Send Love</a>
+                            <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/mick-haupt-KPOTowEvT3E-unsplash.jpg" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Read Letters</h5>
+                            <p class="card-text">Not sure how your Letter should look like? With the help from other existing letters get Inspired and Learn How to write a Letter here!</p>
+                            <a href="" class="btn btn-outline-success btn-sm">View Letters</a>
+                            <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </div>
+    </section>
+
+    <div class="container text-center" style="margin: 30px auto">
+        <p>In need of some Christmas Spirit? Here is a Sing-a-long Christmas song for you!</p>
+            <div class="embed-responsive embed-responsive-16by9">
+                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/NJ8U6TEO-qE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+    </div>
+
+    <footer>
+        <section style="height: 350px;" id="footer" class="jumbotron text-center">
+            <h4 class="font-weight-bold">Santa's Address</h4>
+            <br>
+            <ul style="list-style-type: none;">
+                <li><p class="font-weight-normal">Santa Claus 325 S</p></li>
+                <li><p class="font-weight-normal">Santa Claus Lane</p></li>
+                <li><p class="font-weight-bold">North Pole</p></li>
+                <li><p class="font-weight-normal">Alaska 99705</p></li>
+            </ul>
+            <p>Copyright (c) 2019 <span style="color: blue;">Maria Pop</span> </p>
+        </section>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
